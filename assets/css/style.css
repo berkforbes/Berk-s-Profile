@@ -76,6 +76,7 @@ header nav ul li a:hover {
   font-family: monaco;   
   display: flex;
   font-size: 1.2vw;
+  padding: 5px 5px 5px 5px;
   
   }
 
@@ -94,6 +95,15 @@ header nav ul li a:hover {
 }
 
 .contact{
-  font-family: monaco;
-  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  text-decoration: none; 
+  color: rgb(7, 6, 6);
 }
+
+.contact ul{
+  margin-left: 25px;
+  text-decoration: none;
+  }
