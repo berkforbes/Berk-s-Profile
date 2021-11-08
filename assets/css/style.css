@@ -97,10 +97,11 @@ header nav ul li a:hover {
 .contact{
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
   text-decoration: none; 
   color: rgb(7, 6, 6);
+  font-family: monaco;
 }
 
 .contact ul{
