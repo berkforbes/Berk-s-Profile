@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #5d6796;
+  font-family: Helvetica, Arial, sans-serif, monospace;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: #f0f3f3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-family: monaco;
+  font-weight: 200;
+  font-size: 55px;
+  margin-left: 1500;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-family: monaco;
+  
+    
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    color: rgb(35, 35, 36);    
+    text-decoration: none; 
+}
+
+header nav ul li a:hover {
+  background: #444443;
+  color: #c7cacc;
+  border-radius: 5px;
+  text-shadow: none;
+}
+
+.content img{
+  width: 33%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content{      
+  margin: 20px;
+  background:#f0f3f3;
+  color:#131312;
+  flex: 0;   
+  font-family: monaco;   
+  display: flex;
+  font-size: 1.2vw;
+  
+  }
+
+  
+.My-Work img{
+  width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.About-Me{
+  border: 2px solid black;
+}
+
+.contact{
+  font-family: monaco;
+  text-decoration: none;
+}
